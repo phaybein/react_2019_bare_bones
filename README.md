@@ -1,6 +1,5 @@
 ![Imgur](https://i.imgur.com/JWJEE7J.png)
 
-<!--
 # React 2019 Bare Bones Setup
 
 > Create a React application with Sass.
@@ -36,7 +35,7 @@ What's all the bells and whistles this project can perform?
 ## Contributing
 
 If you'd like to contribute, please fork the repository and use a feature
-branch. Pull requests are warmly welcome. -->
+branch. Pull requests are warmly welcome.
 
 ## Author
 
