@@ -3,7 +3,7 @@ import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 
 // STYLES
-import './app.css';
+import './app.scss';
 
 export class App extends Component {
   render() {

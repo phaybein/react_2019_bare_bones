@@ -1,8 +1,8 @@
 ![Imgur](https://i.imgur.com/JWJEE7J.png)
 
-# React 2019 Bare-Bones Setup
+# React 2019 Bare-Bones Setup With SASS
 
-> Create a bare-bones `React` application with `CSS` loading and `Autoprefix` to handle Vendor Prefixes.
+> Create a bare-bones `React` application with `SCSS` loading and `Autoprefix` to handle Vendor Prefixes.
 
 ## Installing / Getting started
 
@@ -27,7 +27,7 @@ npm build
 What's all the bells and whistles this project can perform?
 
 - Give you the bare-bones `React` application
-- You have the ability to use `CSS` and load files separately.
+- You have the ability to use `SCSS` and load files separately.
 - `Autoprefixer` is used to handle Vendor Prefixes automatically.
 
 ## Contributing
@@ -41,7 +41,7 @@ Mauro M. [FMWebCo](https://www.fmwebco.com)
 
 ## Version
 
-1.0.0
+1.1.0
 
 ## Links
 

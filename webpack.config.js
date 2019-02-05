@@ -13,7 +13,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.s?[ac]ss$/,
         use: [
           MiniCssExtractPlugin.loader, // SPLIT CSS INTO SEPERATE FILE
           {
@@ -29,6 +29,12 @@ module.exports = {
               plugins: [
                 require('autoprefixer') // ADD VENDOR PREFIX
               ]
+            }
+          },
+          {
+            loader: 'sass-loader', // COMPILE SASS TO CSS
+            options: {
+              sourceMap: true
             }
           }
         ]

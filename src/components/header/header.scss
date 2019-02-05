@@ -3,10 +3,11 @@
     no-repeat center/cover;
   display: flex;
   height: 100%;
-}
-#header h1 {
-  background: rgba(0, 0, 0, 0.5);
-  color: #f4f4f4;
-  margin: auto;
-  padding: 1rem;
+
+  h1 {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f4f4f4;
+    margin: auto;
+    padding: 1rem;
+  }
 }
