@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import Header from './components/header/Header';
+
+import './app.scss';
 
 export class App extends Component {
   render() {
     return (
-      <div>
-        <h1>React Bare</h1>
-      </div>
+      <>
+        <Header />
+      </>
     );
   }
 }
