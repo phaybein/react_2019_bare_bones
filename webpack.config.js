@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
@@ -12,7 +13,28 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js?$/,
+        test: /\.css$/,
+        use: [
+          MiniCssExtractPlugin.loader, // SPLIT CSS INTO SEPERATE FILE
+          {
+            loader: 'css-loader', // RESOLVE @IMPORT
+            options: {
+              // url: false,
+              sourceMap: true
+            }
+          },
+          {
+            loader: 'postcss-loader', // MUST HAVE TO USE AUTOPREFIXER
+            options: {
+              plugins: [
+                require('autoprefixer') // ADD VENDOR PREFIX
+              ]
+            }
+          }
+        ]
+      },
+      {
+        test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
       }
@@ -21,6 +43,10 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html'
+    }),
+    new MiniCssExtractPlugin({
+      filename: '[name].css'
     })
-  ]
+  ],
+  devtool: 'source-map'
 };

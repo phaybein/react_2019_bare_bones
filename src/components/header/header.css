@@ -1,0 +1,12 @@
+#header {
+  background: url('https://images.pexels.com/photos/1856422/pexels-photo-1856422.jpeg?auto=compress&cs=tinysrgb&h=650&w=940')
+    no-repeat center/cover;
+  display: flex;
+  height: 100%;
+}
+#header h1 {
+  background: rgba(0, 0, 0, 0.5);
+  color: #f4f4f4;
+  margin: auto;
+  padding: 1rem;
+}

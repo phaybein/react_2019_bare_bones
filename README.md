@@ -1,8 +1,8 @@
 ![Imgur](https://i.imgur.com/JWJEE7J.png)
 
-# React 2019 Bare Bones Setup
+# React 2019 Bare-Bones Setup
 
-> Create a React application with Sass.
+> Create a bare-bones React application with CSS loading.
 
 ## Installing / Getting started
 
@@ -19,9 +19,6 @@ npm start
 # Build Out Application
 npm build
 
-# Run the React client only
-npm run client
-
 # React application runs on http://localhost:8080
 ```
 
@@ -29,8 +26,8 @@ npm run client
 
 What's all the bells and whistles this project can perform?
 
-- Give you the bare bones `React` application
-- You have the ability to use `Sass`
+- Give you the bare-bones `React` application
+- You have the ability to use `CSS` and load files separately.
 
 ## Contributing
 
