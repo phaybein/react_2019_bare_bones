@@ -4,7 +4,7 @@ import './header.scss';
 function Header() {
   return (
     <header id="header">
-      <h1>React Bare Bones With SASS!</h1>
+      <h1>React Bare-bones With SASS!</h1>
     </header>
   );
 }
