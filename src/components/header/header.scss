@@ -1,13 +1,13 @@
-#header {
-  background: url('https://images.pexels.com/photos/1856422/pexels-photo-1856422.jpeg?auto=compress&cs=tinysrgb&h=650&w=940')
-    no-repeat center/cover;
+.header {
   display: flex;
   height: 100%;
 
-  h1 {
-    background: rgba(0, 0, 0, 0.5);
-    color: #f4f4f4;
+  &__center {
     margin: auto;
-    padding: 1rem;
+
+    &__img {
+      height: 150px;
+      margin-bottom: 1rem;
+    }
   }
 }
